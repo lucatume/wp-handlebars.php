@@ -1,0 +1,22 @@
+{
+  "name": "lucatume/wp-handlebars.php",
+  "description": "Handlebars processor for php 5.2 with some WordPress sugar.",
+  "license": "GPL v2.0",
+  "authors": [
+    {
+      "name": "Luca Tumedei",
+      "email": "luca@theaveragedev.com"
+    }
+  ],
+  "require": {
+    "xamin/handlebars.php": "dev-php-52"
+  },
+  "autoload": {
+    "psr-0": {
+      "WPHandlebars": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.3"
+  }
+}
